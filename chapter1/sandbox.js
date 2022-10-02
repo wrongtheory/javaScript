@@ -222,3 +222,53 @@ while(i<5){
     console.log('in loop: ' ,i);
     i++;
 }
+let j = 0;
+while(j < names2.length){
+    console.log(names2[j]+'hz');
+    j++;
+}
+
+console.log('after while');
+
+
+
+let k = 0;
+
+do {
+    console.log(names2[k]);
+    k++;
+} while (k < names2.length);
+
+// if statement
+
+age = 30;
+
+if(age > 20){
+    console.log('you are over 20 years old');
+}
+
+if(ninjas.length>2){
+    console.log('over two');
+}
+
+const password = 'pass';
+
+if(password.length >= 8){
+    console.log('long enough');
+} else{
+    console.log('is weak');
+}
+
+const grade = 'D';
+
+switch(grade){
+    case 'A': console.log('A'); break;
+    case 'B': console.log('B'); break;
+    case 'C': console.log('C'); break;
+    case 'D': console.log('D'); break;
+    default: console.log('default');
+}
+
+
+age = 30;
+
