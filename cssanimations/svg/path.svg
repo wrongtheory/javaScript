@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="300" height="200">
+
+<!-- <path d="M190 40 L115 240 L265 240 Z" />
+
+<path d="M10 10" />
+
+<circle cx = "10" cy="10" r="10" fill="red"/>
+
+<path d="M 10 10 H 90 V 90 H 10 L 10 10" />
+
+<circle cx="10 " cy="10" r="2" fill="red" />
+<circle cx="90 " cy="90" r="2" fill="red" />
+<circle cx="90 " cy="10" r="2" fill="red" />
+<circle cx="10 " cy="90" r="2" fill="red" />
+ -->
+
+
+ <!-- <path d="M 10 10 H 90 V 90 H 10 Z" fill="transparent" stroke="black" /> -->
+
+<!-- <path d="M 10 10 h 80 v 80 h -80 Z" fill="transparent" stroke="black" /> -->
+
+<!-- <path d="M 70 10 C 70 20, 100 20, 100 10" stroke="red" fill="transparent" /> -->
+
+<!-- <path d="M 0, 200 C 90,200 100,100 300,300" stroke="red" fill="none" /> -->
+
+<!-- <path d="M 10 80 C 40 10, 65 10, 85 80 S 150 150, 180, 80" stroke="red" fill="none"/> -->
+
+<path stroke="blue" stroke-width="1" fill="none"
+d="M20 70 Q50 40, 80,70"/> 
+
+<path stroke="maroon" stroke-width="1"  fill="none" 
+d="M10 50 C20 30 20 30 30 50 S40 70, 50 50 S60 30 70 50"/>
+
+</svg>

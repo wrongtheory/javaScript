@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .line1left{
+         border-bottom:2px solid;
+        animation: animateline1left linear 3s forwards infinite;
+        transform:rotate(-45deg) scaleX(0);
+        transform-origin:left bottom;
+        margin: 1rem 0; 
+        }
+
+        .line1right{
+         border-bottom:20px solid;
+        animation: animateline1right linear 3s forwards infinite;
+        transform:rotate(45deg) scaleX(0);
+        transform-origin:left bottom;
+        
+        
+        }
+
+           .linecenter{
+            width:2px;
+            margin-left:10%;
+            background-color:chartreuse;
+            margin-top:35%;
+            
+            position:relative;
+            animation: animatecenterline linear 3s forwards infinite;
+  
+        }
+
+    @keyframes animateline1left {
+    
+    0%{
+        height: 0px;
+        bottom: 0px;
+        transform: rotate(-45deg) scaleX(100%);
+    }
+
+    100%{
+        
+        transform: rotate(-45deg) scaleX(100%);
+        border-bottom: 200px solid;
+    }
+
+    }
+
+     @keyframes animateline1right {
+    
+    0%{
+        height: 0px;
+        bottom: 0px;
+        transform: rotate(45deg) scaleX(100%);
+    }
+
+    100%{
+        
+        transform: rotate(45deg) scaleX(100%);
+        border-bottom: 200px solid;
+    }
+
+    }
+
+      @keyframes animatecenterline {
+  0% {
+        height: 0px;
+        bottom:0;
+    }
+    100%{
+        height: 200px;
+        bottom:200px;
+    }
+
+    }
+    </style>
+</head>
+
+<body>
+    <b>Hello</b>
+<div>
+    <div class="linecenter">
+        
+        <div class="line1left"></div>
+        <div class="line1right"></div>
+
+    </div> 
+        
+   
+   
+</div>
+</body>
+</html>

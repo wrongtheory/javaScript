@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="300" height="200">
+
+<circle cx="75" cy="75" r="50" 
+style="stroke:#000033;
+        fill:#14732e;
+        stroke-width:10;
+        stroke-dasharray:20 20;
+        
+"
+
+/>
+
+</svg>
